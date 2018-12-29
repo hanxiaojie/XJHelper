@@ -10,6 +10,8 @@
 		52FABDD821D772B500547083 /* XJHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FABDCE21D772B500547083 /* XJHelper.framework */; };
 		52FABDDD21D772B500547083 /* XJHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FABDDC21D772B500547083 /* XJHelperTests.m */; };
 		52FABDDF21D772B500547083 /* XJHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FABDD121D772B500547083 /* XJHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FABE2E21D77EBB00547083 /* XJHelperManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FABE2C21D77EBB00547083 /* XJHelperManager.h */; };
+		52FABE2F21D77EBB00547083 /* XJHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FABE2D21D77EBB00547083 /* XJHelperManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		52FABDD721D772B500547083 /* XJHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FABDDC21D772B500547083 /* XJHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHelperTests.m; sourceTree = "<group>"; };
 		52FABDDE21D772B500547083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FABE2C21D77EBB00547083 /* XJHelperManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHelperManager.h; sourceTree = "<group>"; };
+		52FABE2D21D77EBB00547083 /* XJHelperManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHelperManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				52FABDD121D772B500547083 /* XJHelper.h */,
+				52FABE2C21D77EBB00547083 /* XJHelperManager.h */,
+				52FABE2D21D77EBB00547083 /* XJHelperManager.m */,
 				52FABDD221D772B500547083 /* Info.plist */,
 			);
 			path = XJHelper;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FABE2E21D77EBB00547083 /* XJHelperManager.h in Headers */,
 				52FABDDF21D772B500547083 /* XJHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FABE2F21D77EBB00547083 /* XJHelperManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
